@@ -22,6 +22,8 @@ jobs:
           coverage: xdebug
       - name: Install Composer dependencies
         run: composer install -q
+      - name: Setup Laravel environment
+        run: cp .env.example .env && php artisan key:generate
       - name: Test
         run: vendor/bin/phpunit
       - name: Code Coverage
