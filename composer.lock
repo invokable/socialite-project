@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f821d672fbd99c19ba10f1343aacdcb9",
+    "content-hash": "c855be8d300d1f215f277c6c904296ca",
     "packages": [
         {
             "name": "brick/math",
@@ -4040,16 +4040,16 @@
         },
         {
             "name": "revolution/laravel-threads",
-            "version": "0.3.2",
+            "version": "0.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/invokable/laravel-threads.git",
-                "reference": "2be162e30f282ea2377e1526625c584c060b8901"
+                "reference": "3aa967c5e5e1fa6205188cb4da1d4a43e6212483"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/invokable/laravel-threads/zipball/2be162e30f282ea2377e1526625c584c060b8901",
-                "reference": "2be162e30f282ea2377e1526625c584c060b8901",
+                "url": "https://api.github.com/repos/invokable/laravel-threads/zipball/3aa967c5e5e1fa6205188cb4da1d4a43e6212483",
+                "reference": "3aa967c5e5e1fa6205188cb4da1d4a43e6212483",
                 "shasum": ""
             },
             "require": {
@@ -4059,7 +4059,8 @@
                 "php": "^8.2"
             },
             "require-dev": {
-                "orchestra/testbench": "^9.0"
+                "laravel/pint": "^1.22",
+                "orchestra/testbench": "^9.0||^10.0"
             },
             "type": "library",
             "extra": {
@@ -4091,7 +4092,7 @@
                 "threads"
             ],
             "support": {
-                "source": "https://github.com/invokable/laravel-threads/tree/0.3.2"
+                "source": "https://github.com/invokable/laravel-threads/tree/0.4.3"
             },
             "funding": [
                 {
@@ -4099,7 +4100,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-23T03:41:10+00:00"
+            "time": "2025-06-07T00:21:17+00:00"
         },
         {
             "name": "revolution/socialite-amazon",
