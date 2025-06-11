@@ -7,12 +7,14 @@ This is a Laravel demonstration project showcasing various social authentication
 ### Included Packages
 
 #### Socialite Providers
+
 - **[socialite-amazon](https://github.com/invokable/socialite-amazon)** - Amazon Login with Socialite integration
 - **[socialite-discord](https://github.com/invokable/socialite-discord)** - Discord OAuth provider for Laravel Socialite
 - **[socialite-wordpress](https://github.com/invokable/socialite-wordpress)** - WordPress.com OAuth provider for Laravel Socialite
 - **[socialite-mastodon](https://github.com/invokable/socialite-mastodon)** - Mastodon OAuth provider for Laravel Socialite
 
 #### Laravel SDK Packages
+
 - **[laravel-line-sdk](https://github.com/invokable/laravel-line-sdk)** - LINE SDK integration for Laravel
 - **[laravel-threads](https://github.com/invokable/laravel-threads)** - Meta Threads API integration
 - **[laravel-bluesky](https://github.com/invokable/laravel-bluesky)** - Bluesky AT Protocol integration
@@ -30,7 +32,7 @@ This is a Laravel demonstration project showcasing various social authentication
 Visit the root URL to see available authentication providers. Click on any provider to test the OAuth flow:
 
 - `/amazon/login` - Amazon authentication
-- `/discord/login` - Discord authentication  
+- `/discord/login` - Discord authentication
 - `/wordpress/login` - WordPress.com authentication
 - `/mastodon/login` - Mastodon authentication
 
