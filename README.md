@@ -1,6 +1,6 @@
 # Socialite Demo
 
-## Package Overview
+## Overview
 
 This is a Laravel demonstration project showcasing various social authentication providers using Laravel Socialite and custom provider packages. The application provides a simple testing interface to authenticate with multiple social platforms.
 
